@@ -34,8 +34,6 @@ li.navbaritem{
 }*/
 
 
-
-
 footer.footstyle{
     background-color:grey;
     padding-top: 3rem;
@@ -138,6 +136,7 @@ ul.navbar li a:hover {
     background-color: black;
     color: white;
 }
+/*For list elemets that are children of ulclassnavbar, background color and text color will change on hover*/
 
 /*.banner .navbar .navbaritem li:nth-child(3) a:hover {
     background-color: black;
