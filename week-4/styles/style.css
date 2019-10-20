@@ -133,6 +133,7 @@ a:visited {
 
 li a:hover {
     background-color: black;
+    color: white;
 }
 
 a:hover {
