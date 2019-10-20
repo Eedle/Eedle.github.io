@@ -1,3 +1,5 @@
+
+body.backdrop {
     background-color: black;
 }
 
@@ -17,15 +19,16 @@ ul.navbar {
 
 li.navbaritem{
     float: left;
+    display: block;
+    text-align: center;
+    padding: 0rem 0rem;
 }
 
-div.navbarbox
-{
+/*div.navbarbox {
     display: block;
-    color: red;
     text-align: center;
     padding: .3rem .3rem;
-}
+}*/
 
 footer.footstyle{
     background-color:grey;
@@ -125,8 +128,9 @@ a:visited {
     /*Sets the colour of visited links*/
 }
 
-li.a:hover {
+li a:hover {
     background-color: black;
+    color: white;
 }
 
 a:hover {
