@@ -2,29 +2,50 @@ p.color {
     color: white;
 }
 
+/*A Class that will effect the text color of paragraphs labled with class="color"*/
+
+
 body.backdrop {
     background-color: black;
 }
 
+/*A Class that will effect the background color of body sections labled with class="backdrop"*/
+
 header.banner {
+    /*Within these brackets, these specifications aply to headers labeled with class="banner"*/
     background-color: white;
+    /*Collectivly sets background colour of content, padding, and border to white*/
     border: .20rem solid red;
+    /*Sets border thickness, border style, and border color*/
     color: black;
+    /*Sets color fo text content*/
     text-decoration: none;
+    /*REmoves decoration from text content*/
 }
 
 ul.navbar {
+    /*Within these brackets, these specifications aply to unordered lists labeled with class= "navbar"*/
     list-style-type: none;
+    /*Removes bullet points from unordered list*/
     margin: 0;
+    /*Removes default margin settings*/
     padding: 0;
+    /*Removes default padding settings*/
     overflow: hidden;
+    /*If content overflows box it should be clipped/hidden*/
     background-color: grey;
+    /*Collectivly sets background colour of content, padding, and border to grey*/
 }
 
-li.navbaritem{
+li.navbaritem {
     float: left;
+    /*Float property changes the orientation of an element*/
+    /*In this case, want blocks to sit next to eachother*/
     display: block;
+    /*Displays element in block that spans entire width of content*/
+    /*Link is clickable within all area of block*/
     text-align: center;
+    /*Controls horizontal alignment of text*/
     padding: .3rem .3rem;
 }
 
@@ -166,4 +187,5 @@ a:active {
     text-decoration: none;
     /*Removes text decoration while link is in the process of being activated*/
 }
+
 
