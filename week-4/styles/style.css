@@ -1,4 +1,4 @@
-﻿p.color {
+p.color {
     color: white;
 }
 
@@ -32,6 +32,9 @@ li.navbaritem{
     text-align: center;
     padding: .3rem .3rem;
 }*/
+
+
+
 
 footer.footstyle{
     background-color:grey;
@@ -131,10 +134,15 @@ a:visited {
     /*Sets the colour of visited links*/
 }
 
-li a:hover {
+ul.navbar li a:hover {
     background-color: black;
     color: white;
 }
+
+/*.banner .navbar .navbaritem li:nth-child(3) a:hover {
+    background-color: black;
+    color: white;
+}*/
 
 a:hover {
     color: #660066;
