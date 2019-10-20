@@ -1,13 +1,25 @@
+p.color {
+    color: white;
+}
+
+/*A Class that will effect the text color of paragraphs labled with class="color"*/
+
 
 body.backdrop {
     background-color: black;
 }
 
+/*A Class that will effect the background color of body sections labled with class="backdrop"*/
+
 header.banner {
     background-color: white;
     border: .20rem solid red;
     color: black;
+    text-decoration: none;
 }
+
+/*A Class that will effect the background color, border thickness, border style, border color,*/
+/*color of text content, and decoration text of content, within header sections labled with class="banner"*/
 
 ul.navbar {
     list-style-type: none;
@@ -21,7 +33,7 @@ li.navbaritem{
     float: left;
     display: block;
     text-align: center;
-    padding: 0rem 0rem;
+    padding: .3rem .3rem;
 }
 
 /*div.navbarbox {
@@ -29,6 +41,7 @@ li.navbaritem{
     text-align: center;
     padding: .3rem .3rem;
 }*/
+
 
 footer.footstyle{
     background-color:grey;
@@ -123,15 +136,25 @@ a:link {
     /*Sets the default colour of links univisited*/
 }
 
+header.banner a:link {
+    text-decoration: none;
+}
+
 a:visited {
     color: #ff8c1a;
     /*Sets the colour of visited links*/
 }
 
-li a:hover {
+ul.navbar li a:hover {
     background-color: black;
     color: white;
 }
+/*For list elemets that are children of ulclassnavbar, background color and text color will change on hover*/
+
+/*.banner .navbar .navbaritem li:nth-child(3) a:hover {
+    background-color: black;
+    color: white;
+}*/
 
 a:hover {
     color: #660066;
