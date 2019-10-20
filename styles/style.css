@@ -23,10 +23,16 @@ header.banner {
 
 ul.navbar {
     list-style-type: none;
+    /*Removes bullet points from unordered list labeled with class= "navbar"*/
     margin: 0;
+    /*Removes default margin settings within unordered list labled with class= "navbar"*/
     padding: 0;
+    /*Removes default padding settings within unordered list labled with class= "navbar"*/
     overflow: hidden;
+    /*If content overflows box it should be clipped/hidden*/
     background-color: grey;
+    /*Collectivly ets background colour of content, padding, and border to grey*/
+    /* within unordered list labled with class= "navbar*/
 }
 
 li.navbaritem{
