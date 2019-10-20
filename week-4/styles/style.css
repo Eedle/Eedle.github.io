@@ -10,6 +10,7 @@ header.banner {
     background-color: white;
     border: .20rem solid red;
     color: black;
+    text-decoration: none;
 }
 
 ul.navbar {
@@ -24,7 +25,7 @@ li.navbaritem{
     float: left;
     display: block;
     text-align: center;
-    padding: 0rem 0rem;
+    padding: .3rem .3rem;
 }
 
 /*div.navbarbox {
@@ -127,6 +128,10 @@ a:link {
     /*Sets the default colour of links univisited*/
 }
 
+header.banner a:link {
+    text-decoration: none;
+}
+
 a:visited {
     color: #ff8c1a;
     /*Sets the colour of visited links*/
@@ -161,3 +166,4 @@ a:active {
     text-decoration: none;
     /*Removes text decoration while link is in the process of being activated*/
 }
+
