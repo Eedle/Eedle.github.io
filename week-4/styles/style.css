@@ -22,15 +22,16 @@ ul.navbar {
 
 li.navbaritem{
     float: left;
+    display: block;
+    text-align: center;
+    padding: 0rem 0rem;
 }
 
-div.navbarbox
-{
+/*div.navbarbox {
     display: block;
-    color: red;
     text-align: center;
     padding: .3rem .3rem;
-}
+}*/
 
 footer.footstyle{
     background-color:grey;
