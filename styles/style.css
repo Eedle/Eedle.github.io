@@ -1,15 +1,72 @@
+    background-color: black;
+}
+
+header.banner {
+    background-color: white;
+    border: .20rem solid red;
+    color: black;
+}
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+}
+
+li.navbaritem{
+    float: left;
+}
+
+div.navbarbox
+{
+    display: block;
+    color: red;
+    text-align: center;
+    padding: .3rem .3rem;
+}
+
+footer.footstyle{
+    background-color:grey;
+    padding-top: 3rem;
+}
+
+section.mainsection{
+
+    background-color: white;
+    padding: 2rem;
+}
+
+p.sectionpstyle {
+    color: black;
+}
+
+section.section1 {
+    background-color: #bf80ff;
+    padding: 1rem;
+}
+
+aside {
+    border: .5rem dashed #4d0099;
+    background-color: #e6ccff;
+}
+
+aside > h2{
+    font-size: 2rem;
+    padding-left: 1rem;
+}
+
 p, li, h1, ul {
     color: DarkSlateGray;
     /*Changes the color of paragraphs, list items, unorganized lists, and heading 1s.*/
 }
 
 html {
-    font-family: Luminari, cursive, fantasy;
+    font-family: Luminari, papyrus, fantasy;
     /*changes the default font and supplies backup fonts in case the first choice is not avialable*/
-
     font-size: 10px;
     /*Sets the default font size across all html pages referencing this CSS file*/
-   
 }
 
 p, li {
@@ -42,7 +99,7 @@ header {
     background-color: #ffce99;
     /*Sets the background colour of content within the header*/
     border-bottom: .3rem solid #4d0099;
-    /*Creates border bottom, .3rem determines thickness ofborder, solid styles the border solid, and then the colour is selected*/
+    /*Creates border bottom, .3rem determines thickness of border, solid styles the border solid, and then the colour is selected*/
 }
 
     header > h1 {
@@ -68,9 +125,13 @@ a:visited {
     /*Sets the colour of visited links*/
 }
 
+li.a:hover {
+    background-color: black;
+}
+
 a:hover {
     color: #660066;
-   /*Changes the colour of link when hovered over by cursor*/
+    /*Changes the colour of link when hovered over by cursor*/
     text-decoration: none;
     /*Removes text decoration of link, in this case underline*/
     background-color: #cc99ff
