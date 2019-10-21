@@ -67,7 +67,7 @@ footer.footstyle{
 }
 
 section.mainsection{
-/*Section groups a selection of content that couldn't stand on it's own or*/
+/*Section semantically groups a selection of content that couldn't stand on it's own or*/
 /*multiple selections of content that aren't collectivly cohesive*/
     background-color: white;
     padding: 2rem;
