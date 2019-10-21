@@ -90,6 +90,7 @@ aside {
 }
 
 aside > h2{
+    /*For heading 2s that are children of asides, the specificaitons within the brackets will apply*/
     font-size: 2rem;
     padding-left: 1rem;
 }
