@@ -47,6 +47,8 @@ li.navbaritem {
     text-align: center;
     /*Controls horizontal alignment of text*/
     padding: .3rem .3rem;
+    /*Sets paddingaround content within list element*/
+    /*Shorthand, first value sets padding top and bottom, second value sets padding left and right*/
 }
 
 /*div.navbarbox {
@@ -187,5 +189,6 @@ a:active {
     text-decoration: none;
     /*Removes text decoration while link is in the process of being activated*/
 }
+
 
 
