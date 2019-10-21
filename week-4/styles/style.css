@@ -47,7 +47,7 @@ li.navbaritem {
     text-align: center;
     /*Controls horizontal alignment of text*/
     padding: .3rem .3rem;
-    /*Sets paddingaround content within list element*/
+    /*Sets padding around content within list element*/
     /*Shorthand, first value sets padding top and bottom, second value sets padding left and right*/
 }
 
@@ -59,8 +59,11 @@ li.navbaritem {
 
 
 footer.footstyle{
+    /*Information such as author, contacts, copyrite, related sources is sually placed inside footer*/
+    /*Within these barackets, specifications apply to a class attatched to footer named footstyle*/
     background-color:grey;
     padding-top: 3rem;
+    /*Sets padding for top bottom right and left of content*/
 }
 
 section.mainsection{
