@@ -83,6 +83,8 @@ section.section1 {
 }
 
 aside {
+    /*Aside designates a selection of content that isn't related to main content*/
+    /*For example, like a side note*/
     border: .5rem dashed #4d0099;
     background-color: #e6ccff;
 }
