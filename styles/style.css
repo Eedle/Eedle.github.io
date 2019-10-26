@@ -11,6 +11,11 @@ body.backdrop {
 
 /*A Class that will effect the background color of body sections labled with class="backdrop"*/
 
+p.whitespace {
+    white-space: pre;
+}
+/*Preserves white space in paragraphs*/
+
 body.backdropW5 {
     background-color: #b3e6ff;
 }
