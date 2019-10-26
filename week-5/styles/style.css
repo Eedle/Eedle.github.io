@@ -7,6 +7,13 @@ p.color {
 div.bit-columns {
 }
 
+#bit112-nav > li
+{
+    display: inline-block;
+    padding: 1rem;
+    width: 5rem;
+}
+/*Id*/
 
 body.backdrop {
     background-color: black;
