@@ -6,9 +6,8 @@
 
 p.format {
     white-space: pre-wrap;
-    /*text-align: center;*/
 }
-/*Preserves white space in paragraphs*/
+/*Preserves white space in paragraphs, wraps lines when nescisary*/
 
 
 body.backdrop {
