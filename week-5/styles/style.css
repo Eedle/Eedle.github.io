@@ -4,10 +4,11 @@
 
 /*A Class that will effect the text color of paragraphs labled with class="color"*/
 
-p.whitespace {
-    white-space: pre;
+p.format {
+    white-space: pre-wrap;
+    /*text-align: center;*/
 }
-/*Preserves white space inparagraphs*/
+/*Preserves white space in paragraphs*/
 
 
 body.backdrop {
