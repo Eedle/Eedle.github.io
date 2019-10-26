@@ -4,6 +4,11 @@
 
 /*A Class that will effect the text color of paragraphs labled with class="color"*/
 
+p.whitespace {
+    white-space: pre;
+}
+/*Preserves white space inparagraphs*/
+
 
 body.backdrop {
     background-color: black;
