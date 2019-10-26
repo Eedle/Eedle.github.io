@@ -9,6 +9,7 @@ div.bit-columns {
 
 p.format {
     white-space: pre-wrap;
+    font face="Times New Roman"
 }
 /*Preserves white space in paragraphs, wraps lines when nescisary*/
 
