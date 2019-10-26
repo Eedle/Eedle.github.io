@@ -12,7 +12,7 @@ body.backdrop {
 /*A Class that will effect the background color of body sections labled with class="backdrop"*/
 
 body.backdropW5{
-    background-color: lightblue;
+    background-color: #b3e6ff;
 }
 
 header.banner {
