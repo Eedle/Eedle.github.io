@@ -12,10 +12,10 @@ body.backdrop {
 /*A Class that will effect the background color of body sections labled with class="backdrop"*/
 
 p.format {
-    white-space: pre;
-    text-align: center;
+    white-space: pre-wrap;
+    /*text-align: center;*/
 }
-/*Preserves white space in paragraphs, alignes text center*/
+/*Preserves white space in paragraphs*/
 
 body.backdropW5 {
     background-color: #b3e6ff;
