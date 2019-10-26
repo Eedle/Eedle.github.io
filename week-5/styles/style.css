@@ -4,6 +4,9 @@
 
 /*A Class that will effect the text color of paragraphs labled with class="color"*/
 
+div.bit-columns {
+}
+
 p.format {
     white-space: pre-wrap;
 }
