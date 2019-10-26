@@ -11,6 +11,10 @@ body.backdrop {
 
 /*A Class that will effect the background color of body sections labled with class="backdrop"*/
 
+body.backdrop W5{
+    background-color: lightblue;
+}
+
 header.banner {
     background-color: white;
     border: .20rem solid red;
