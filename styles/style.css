@@ -13,9 +13,9 @@ body.backdrop {
 
 p.format {
     white-space: pre;
-    text-align: left;
+    text-align: center;
 }
-/*Preserves white space in paragraphs, alignes text left*/
+/*Preserves white space in paragraphs, alignes text center*/
 
 body.backdropW5 {
     background-color: #b3e6ff;
