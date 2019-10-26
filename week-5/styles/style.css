@@ -145,10 +145,16 @@ li {
     /*Changes fontsize of list item element by an order of em units*/
 }
 
-header, main {
+header, main, Nav, footer {
     padding: 2.5rem;
     /*In this case, adds padding to the peices of content within header and main*/
     /*Padding is the horizontal &/or vertical space between a peice of content and it's rectangular border*/
+    margin: 1rem;
+    display: inline;
+    float: right;
+    position: fixed;
+    width: 20rem;
+    height: 20rem;
 }
 
 header {
