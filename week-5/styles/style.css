@@ -9,6 +9,11 @@ body.backdrop {
     background-color: black;
 }
 
+
+body.backdropW5 {
+    background-color: #b3e6ff;
+}
+
 /*A Class that will effect the background color of body sections labled with class="backdrop"*/
 
 header.banner {
