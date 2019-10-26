@@ -11,7 +11,7 @@ body.backdrop {
 
 /*A Class that will effect the background color of body sections labled with class="backdrop"*/
 
-body.backdrop W5{
+body.backdropW5{
     background-color: lightblue;
 }
 
