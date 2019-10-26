@@ -70,7 +70,10 @@ footer.footstyle {
     /*Information such as author, contacts, copyrite, related sources is sually placed inside footer*/
     /*Within these barackets, specifications apply to a class attatched to footer named footstyle*/
     background-color: grey;
-    padding: 1rem 65rem 1rem 3rem;
+}
+
+footer{
+     padding: 1rem 65rem 1rem 3rem;
     /*Sets padding for top bottom right and left of content*/
     margin: 1rem 5rem 1rem 5rem;
     display: block;
