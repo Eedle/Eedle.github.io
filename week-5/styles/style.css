@@ -1,4 +1,4 @@
-﻿p.color {
+p.color {
     color: white;
 }
 
@@ -6,12 +6,6 @@
 
 div.bit-columns {
 }
-
-p.format {
-    white-space: pre-wrap;
-    font face="Times New Roman"
-}
-/*Preserves white space in paragraphs, wraps lines when nescisary*/
 
 
 body.backdrop {
@@ -115,11 +109,21 @@ p, li, h1, ul {
 }
 
 html {
-    font-family: Luminari, papyrus, fantasy;
-    /*changes the default font and supplies backup fonts in case the first choice is not avialable*/
     font-size: 10px;
     /*Sets the default font size across all html pages referencing this CSS file*/
 }
+
+p, h1, h2, li {
+    /* font-family: Luminari, papyrus, fantasy;*/
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    /*changes the default font and supplies backup fonts in case the first choice is not avialable*/
+}
+
+p.format {
+    white-space: pre-wrap;
+}
+/*Preserves white space in paragraphs, wraps lines when nescisary*/
+
 
 p, li {
     font-size: 1.8em;
