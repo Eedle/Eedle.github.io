@@ -5,6 +5,9 @@ p.color {
 /*A Class that will effect the text color of paragraphs labled with class="color"*/
 
 div.bit-columns {
+    column-count:3;
+    /*Colunm-count creates a number of colunms to match the input value*/
+    column-width:5rem;
 }
 
 #bit112-nav li  {
@@ -117,7 +120,7 @@ footer.footstyle2 {
     position: relative;
     width: 30rem;
     height: 5rem;
-    padding: 1rem 50rem 1rem 3rem;
+    padding: 1rem 50rem 1rem 30rem;
     background-color: #e6ccff;
     /*Sets padding for top bottom right and left of content*/
 }
@@ -175,9 +178,9 @@ p, h1, h2, li {
 }
 
     p.format {
-        white-space: pre-wrap;
+        white-space: pre;
     }
-/*Preserves white space in paragraphs, wraps lines when nescisary*/
+/*Preserves white space in paragraphs*/
 
 
 p, li {
@@ -230,6 +233,9 @@ Nav {
         border-bottom: .3rem solid #4d0099;
         /*Creates border bottom, .3rem determines thickness of border, solid styles the border solid, and then the colour is selected*/
     }
+.headerme {
+    margin: 0rem 0rem -20rem 0rem;
+}
 
     header > h1 {
         color: #4d0099;
@@ -238,7 +244,7 @@ Nav {
         /*Vertically sets the line height around text within the h1 element if it is the child of header*/
     }
 
-main {
+main.indexmain {
     max-width: 33em;
     /*Sets max width of main element*/
     /*If content could exceed max width, height will be changed to compensate*/
@@ -251,6 +257,16 @@ main {
     position: relative;
     width: 30rem;
     height: 10rem;
+}
+
+main {
+    padding: 15rem 1rem 1rem 1rem;
+    margin: 1rem 1rem 1rem 1rem;
+    display: block;
+    position: relative;
+    float: none;
+    width: 60rem;
+    height: 60rem;
 }
 
 a:link {
@@ -295,3 +311,4 @@ a:active {
     text-decoration: none;
     /*Removes text decoration while link is in the process of being activated*/
 }
+
