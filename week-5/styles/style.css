@@ -1,3 +1,6 @@
+p.color {
+    color: white;
+}
 
 /*A Class that will effect the text color of paragraphs labled with class="color"*/
 
@@ -127,23 +130,25 @@ div.bit-columns {
         height: 5rem;
     }
 
-    footer.footstyle2 {
-        /*position: relative;
+footer.footstyle2 {
+    /*position: relative;
     clear: both;
     height: 200px;
     display: block;
     margin-top: -200px;*/
-        clear: both;
-        margin: 200rem 40rem 1rem -20rem;
-        display: block;
-        float: left;
-        position: relative;
-        width: 30rem;
-        height: 5rem;
-        padding: 1rem 50rem 1rem 30rem;
-        background-color: #e6ccff;
-        /*Sets padding for top bottom right and left of content*/
-    }
+    clear: both;
+    /*Clear: both allows element to fall under previouse elements*/
+    /*that has been floated to left or right*/
+    margin: 200rem 40rem 1rem -20rem;
+    display: block;
+    float: left;
+    position: relative;
+    width: 30rem;
+    height: 5rem;
+    padding: 1rem 50rem 1rem 30rem;
+    background-color: #e6ccff;
+    /*Sets padding for top bottom right and left of content*/
+}
 
     section#rabbit figure {
         /*Within these brackets, these specifications apply to figure content within the section labeled with the id tag "rabbit"*/
