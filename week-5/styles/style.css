@@ -124,6 +124,7 @@ footer.footstyle2 {
     height: 200px;
     display: block;
     margin-top: -200px;*/
+    clear: both;
     margin: 1rem 40rem 1rem -20rem;
     display: block;
     float: left;
