@@ -123,7 +123,7 @@ footer.footstyle2 {
     display: block;
     margin-top: -200px;*/
     clear: both;
-    margin: 150rem 40rem 1rem -20rem;
+    margin: 200rem 40rem 1rem -20rem;
     display: block;
     float: left;
     position: relative;
@@ -139,9 +139,11 @@ figure {
     /*Float property changes the orientation of an element*/
     /*Float preserves text wrap when not set to none*/
     margin-left: 1rem;
-    width: 40%;
 }
 
+img {
+    width: 60%;
+}
 
 section.mainsection {
     /*Section semantically groups a selection of content that can't stand on it's own or*/
