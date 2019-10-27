@@ -49,7 +49,7 @@ ul.navbar {
     /*Removes default padding settings*/
     overflow: hidden;
     /*If content overflows box it should be clipped/hidden*/
-    background-color: grey;
+    background-color: white;
    /*Collectivly sets background colour of content, padding, and border to grey*/
 
 }
@@ -66,10 +66,11 @@ li a.navbaritem2 {
     /*Link is clickable within all area of block*/
     text-align: center;
     /*Controls horizontal alignment of text*/
-    padding: 14px 16px;
+    padding: 1rem;
     /*Sets padding around content within list element*/
     /*Shorthand, first value sets padding top and bottom, second value sets padding left and right*/
     text-decoration: none;
+    height:2rem;
 }
 
 /*div.navbarbox {
@@ -189,7 +190,7 @@ li {
     /*Changes fontsize of list item element by an order of em units*/
 }
 
-header, Nav {
+header {
     padding: 1rem 35rem 1rem 10rem;
     /*In this case, adds padding to the peices of content within header and main*/
     /*Padding is the horizontal &/or vertical space between a peice of content and it's rectangular border*/
@@ -201,12 +202,24 @@ header, Nav {
     height: 8rem;
 }
 
-header {
-    background-color: #ffce99;
-    /*Sets the background colour of content within the header*/
-    border-bottom: .3rem solid #4d0099;
-    /*Creates border bottom, .3rem determines thickness of border, solid styles the border solid, and then the colour is selected*/
+Nav {
+    padding: 1rem 1rem 1rem 1rem;
+    /*In this case, adds padding to the peices of content within header and main*/
+    /*Padding is the horizontal &/or vertical space between a peice of content and it's rectangular border*/
+    margin: 1rem 1rem 1rem 1rem;
+    display: block;
+    float: left;
+    position: relative;
+    width: 40rem;
+    height: 5rem;
 }
+
+    header {
+        background-color: #ffce99;
+        /*Sets the background colour of content within the header*/
+        border-bottom: .3rem solid #4d0099;
+        /*Creates border bottom, .3rem determines thickness of border, solid styles the border solid, and then the colour is selected*/
+    }
 
     header > h1 {
         color: #4d0099;
@@ -242,7 +255,7 @@ a:visited {
 }
 
 ul.navbar li a:hover {
-    background-color: black;
+    background-color: grey;
     color: white;
 }
 /*For list elemets that are children of ulclassnavbar, background color and text color will change on hover*/
