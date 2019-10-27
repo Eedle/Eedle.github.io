@@ -5,10 +5,19 @@ p.color {
 /*A Class that will effect the text color of paragraphs labled with class="color"*/
 
 div.bit-columns {
-    column-count:3;
+    column-count: 3;
     /*Colunm-count creates a number of colunms to match the input value*/
-    column-width:5rem;
+    column-width: 5rem;
+    column-gap: 2rem;
+    /*Space between columns*/
+    column-rule: .5rem dotted #4d0099;
+
+    column-count: 2 (minmax(321px, 600px));
+    colunm-count: 1 (max(321px));
 }
+
+
+
 
 #bit112-nav li  {
     display: inline-block;
