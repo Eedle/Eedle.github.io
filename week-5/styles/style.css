@@ -134,14 +134,14 @@ footer.footstyle2 {
     /*Sets padding for top bottom right and left of content*/
 }
 
-figure {
+section#rabbit figure {
     float: right;
     /*Float property changes the orientation of an element*/
     /*Float preserves text wrap when not set to none*/
     margin-left: 1rem;
 }
 
-img {
+section#rabbit figure img {
     width: 60%;
 }
 
