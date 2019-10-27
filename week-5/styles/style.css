@@ -1,8 +1,6 @@
-  p .color
-
-{
-    color: white;
-}
+   p.color{
+        color:white;
+    }
 
 /*A Class that will effect the text color of paragraphs labled with class="color"*/
 
