@@ -7,12 +7,14 @@ p.color {
 div.bit-columns {
 }
 
-#bit112-nav > li {
+#bit112-nav li  {
     display: inline-block;
     padding: 1rem;
     width: 8rem;
 }
 /*Id*/
+
+
 
 body.backdrop {
     background-color: black;
@@ -82,7 +84,7 @@ footer.footstyle {
     display: block;
     float: left;
     position: relative;
-     /*Relative means that elemant position is effected relative to its default position in normal document flow*/
+    /*Relative means that elemant position is effected relative to its default position in normal document flow*/
     width: 8rem;
     height: 5rem;
 }
