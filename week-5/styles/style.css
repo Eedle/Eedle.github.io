@@ -146,6 +146,7 @@ section#rabbit figure img {
 /*Within these brackets, these specifications apply to img within figure within the section labeled with the id tag "rabbit"*/
     width: 60%;
     /*Adjusts width of image to 60% of parent value*/
+    /*In this case responive image values specified in aboutme file*/
 }
 
 section.mainsection {
