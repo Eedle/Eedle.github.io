@@ -58,6 +58,9 @@ header.banner {
     /*Sets color of text content*/
     text-decoration: none;
     /*Removes decoration from text content*/
+    position: relative;
+    margin: 1rem 0rem 1rem 10rem;
+    padding: 0rem 20rem 0rem 10rem;
 }
 
 ul.navbar {
@@ -142,12 +145,12 @@ section#rabbit figure {
     margin-left: 1rem;
 }
 
-section#rabbit figure img {
-/*Within these brackets, these specifications apply to img within figure within the section labeled with the id tag "rabbit"*/
-    width: 60%;
-    /*Adjusts width of image to 60% of parent value*/
-    /*In this case responive image values specified in aboutme file*/
-}
+    section#rabbit figure img {
+        /*Within these brackets, these specifications apply to img within figure within the section labeled with the id tag "rabbit"*/
+        width: 60%;
+        /*Adjusts width of image to 60% of parent value*/
+        /*In this case responive image values specified in aboutme file*/
+    }
 
 section.mainsection {
     /*Section semantically groups a selection of content that can't stand on it's own or*/
