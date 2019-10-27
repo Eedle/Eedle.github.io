@@ -8,11 +8,12 @@ div.bit-columns {
 }
 
 #bit112-nav li  {
+    /*Contents within brackets individually effects li items that are children of Id bit112-nav*/
     display: inline-block;
     padding: 1rem;
     width: 8rem;
 }
-/*Id*/
+
 
 
 
