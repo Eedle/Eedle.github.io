@@ -111,6 +111,7 @@ footer.footstyle {
     margin: 1rem 5rem 1rem 5rem;
     display: block;
     float: left;
+    /*Float property changes the orientation of an element*/
     position: relative;
     /*Relative means that elemant position is effected relative to its default position in normal document flow*/
     width: 8rem;
@@ -136,6 +137,8 @@ footer.footstyle2 {
 
 figure {
     float: right;
+    /*Float property changes the orientation of an element*/
+    /*Float preserves text wrap when not set to none*/
     margin-left: 1rem;
     width: 40%;
 }
