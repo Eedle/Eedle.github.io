@@ -14,7 +14,9 @@ div.bit-columns {
 }
 /*Id*/
 
-
+#AboutMyRabbit {
+    clear:left;
+}
 
 body.backdrop {
     background-color: black;
@@ -27,6 +29,14 @@ body.backdropW5 {
 
 /*A Class that will effect the background color of body sections labled with class="backdrop"*/
 
+.prologue {
+    position: relative;
+    top: 1rem;
+    right: 1rem;
+    font-size: 2em;
+    color: #cc6600;
+}
+
 header.banner {
     /*Within these brackets, these specifications aply to headers labeled with class="banner"*/
     background-color: white;
@@ -36,7 +46,7 @@ header.banner {
     color: black;
     /*Sets color of text content*/
     text-decoration: none;
-    /*REmoves decoration from text content*/
+    /*Removes decoration from text content*/
 }
 
 ul.navbar {
@@ -285,4 +295,3 @@ a:active {
     text-decoration: none;
     /*Removes text decoration while link is in the process of being activated*/
 }
-
