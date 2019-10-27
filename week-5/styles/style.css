@@ -11,7 +11,6 @@ div.bit-columns {
     column-gap: 2rem;
     /*Space between columns*/
     column-rule: .5rem dotted #4d0099;
-
     column-count: 2 (minmax(321px, 600px));
     colunm-count: 1 (max(321px));
 }
@@ -19,7 +18,7 @@ div.bit-columns {
 
 
 
-#bit112-nav li  {
+#bit112-nav li {
     display: inline-block;
     padding: 1rem;
     width: 10rem;
@@ -27,7 +26,7 @@ div.bit-columns {
 /*Id*/
 
 #AboutMyRabbit {
-    clear:left;
+    clear: left;
 }
 
 body.backdrop {
@@ -72,12 +71,11 @@ ul.navbar {
     overflow: hidden;
     /*If content overflows box it should be clipped/hidden*/
     background-color: white;
-   /*Collectivly sets background colour of content, padding, and border to grey*/
-
+    /*Collectivly sets background colour of content, padding, and border to grey*/
 }
 
 li.navbaritem {
-    float:left;
+    float: left;
     /*Float property changes the orientation of an element*/
     /*In this case, want blocks to sit next to eachother*/
 }
@@ -92,7 +90,7 @@ li a.navbaritem2 {
     /*Sets padding around content within list element*/
     /*Shorthand, first value sets padding top and bottom, second value sets padding left and right*/
     text-decoration: none;
-    height:2rem;
+    height: 2rem;
 }
 
 /*div.navbarbox {
@@ -125,7 +123,7 @@ footer.footstyle2 {
     display: block;
     margin-top: -200px;*/
     clear: both;
-    margin: 1rem 40rem 1rem -20rem;
+    margin: 150rem 40rem 1rem -20rem;
     display: block;
     float: left;
     position: relative;
@@ -240,22 +238,23 @@ Nav {
     height: 5rem;
 }
 
-    header {
-        background-color: #ffce99;
-        /*Sets the background colour of content within the header*/
-        border-bottom: .3rem solid #4d0099;
-        /*Creates border bottom, .3rem determines thickness of border, solid styles the border solid, and then the colour is selected*/
-    }
+header {
+    background-color: #ffce99;
+    /*Sets the background colour of content within the header*/
+    border-bottom: .3rem solid #4d0099;
+    /*Creates border bottom, .3rem determines thickness of border, solid styles the border solid, and then the colour is selected*/
+}
+
 .headerme {
     margin: 0rem 0rem -20rem 0rem;
 }
 
-    header > h1 {
-        color: #4d0099;
-        /*Sets the colour of text within the h1 element if it is the child of header*/
-        line-height: 2.5rem;
-        /*Vertically sets the line height around text within the h1 element if it is the child of header*/
-    }
+header > h1 {
+    color: #4d0099;
+    /*Sets the colour of text within the h1 element if it is the child of header*/
+    line-height: 2.5rem;
+    /*Vertically sets the line height around text within the h1 element if it is the child of header*/
+}
 
 main.indexmain {
     max-width: 33em;
@@ -324,4 +323,3 @@ a:active {
     text-decoration: none;
     /*Removes text decoration while link is in the process of being activated*/
 }
-
