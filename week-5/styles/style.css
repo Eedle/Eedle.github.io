@@ -206,7 +206,7 @@ footer.footstyle2 {
 
     p, h1, h2, li {
         /* font-family: Luminari, papyrus, fantasy;*/
-        font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
         /*changes the default font and supplies backup fonts in case the first choice is not avialable*/
     }
 
