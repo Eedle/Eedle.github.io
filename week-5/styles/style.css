@@ -11,11 +11,19 @@ div.bit-columns {
     column-gap: 2rem;
     /*Space between columns*/
     column-rule: .5rem dotted #4d0099;
-    column-count: 2 (minmax(321px, 600px));
-    colunm-count: 1 (max(321px));
+   
 }
 
+@media screen and (max-width: 600px) {
+    div.bit-columns {
+        column-count: 2;
+    }
+}
 
+@media screen and (max-width: 321px) {
+    div.bit-columns {
+        column-count: 1;
+    }
 
 
 #bit112-nav li {
