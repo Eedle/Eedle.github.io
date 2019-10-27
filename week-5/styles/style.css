@@ -135,6 +135,7 @@ footer.footstyle2 {
 }
 
 section#rabbit figure {
+    /*Within these brackets, these specifications apply to figure content within the section labeled with the id tag "rabbit"*/
     float: right;
     /*Float property changes the orientation of an element*/
     /*Float preserves text wrap when not set to none*/
@@ -142,7 +143,9 @@ section#rabbit figure {
 }
 
 section#rabbit figure img {
+/*Within these brackets, these specifications apply to img within figure within the section labeled with the id tag "rabbit"*/
     width: 60%;
+    /*Adjusts width of image to 60% of parent value*/
 }
 
 section.mainsection {
