@@ -82,6 +82,7 @@ footer.footstyle {
     display: block;
     float: left;
     position: relative;
+     /*Relative means that elemant position is effected relative to its default position in normal document flow*/
     width: 8rem;
     height: 5rem;
 }
