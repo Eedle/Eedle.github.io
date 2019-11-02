@@ -1,20 +1,45 @@
-p.color {
-    color: white;
-}
+
+    p.color{
+        color:white;
+    }
 
 /*A Class that will effect the text color of paragraphs labled with class="color"*/
 
 div.bit-columns {
+    column-count: 3;
+    /*Colunm-count creates a number of colunms to match the input value*/
+    column-width: 5rem;
+    column-gap: 2rem;
+    /*Space between columns*/
+    column-rule: .5rem dotted #4d0099;
+    /*Creates borderd between colunms, .5rem thick, dotte style, Hex color #4d0099*/
 }
 
-#bit112-nav li  {
+@media screen and (max-width: 600px) {
+    /*Media type screen selectivly aplies styles to devices*/
+    /*Media expression max-width:600px must be true for styling to apply*/
+    div.bit-columns {
+        /*Specifically effectsclass div.bit-columns*/
+        column-count: 2;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    div.bit-columns {
+        column-count: 1;
+    }
+}
+
+#bit112-nav li {
     display: inline-block;
     padding: 1rem;
     width: 10rem;
 }
 /*Id*/
 
-
+#aboutMyRabbit {
+    clear: left;
+}
 
 body.backdrop {
     background-color: black;
@@ -27,6 +52,14 @@ body.backdropW5 {
 
 /*A Class that will effect the background color of body sections labled with class="backdrop"*/
 
+.prologue {
+    position: relative;
+    top: 1rem;
+    right: 1rem;
+    font-size: 2em;
+    color: #cc6600;
+}
+
 header.banner {
     /*Within these brackets, these specifications aply to headers labeled with class="banner"*/
     background-color: white;
@@ -36,7 +69,10 @@ header.banner {
     color: black;
     /*Sets color of text content*/
     text-decoration: none;
-    /*REmoves decoration from text content*/
+    /*Removes decoration from text content*/
+    position: relative;
+    margin: 1rem 0rem 1rem 10rem;
+    padding: 0rem 20rem 0rem 10rem;
 }
 
 ul.navbar {
@@ -50,12 +86,11 @@ ul.navbar {
     overflow: hidden;
     /*If content overflows box it should be clipped/hidden*/
     background-color: white;
-   /*Collectivly sets background colour of content, padding, and border to grey*/
-
+    /*Collectivly sets background colour of content, padding, and border to grey*/
 }
 
 li.navbaritem {
-    float:left;
+    float: left;
     /*Float property changes the orientation of an element*/
     /*In this case, want blocks to sit next to eachother*/
 }
@@ -70,7 +105,7 @@ li a.navbaritem2 {
     /*Sets padding around content within list element*/
     /*Shorthand, first value sets padding top and bottom, second value sets padding left and right*/
     text-decoration: none;
-    height:2rem;
+    height: 2rem;
 }
 
 /*div.navbarbox {
@@ -89,6 +124,7 @@ footer.footstyle {
     margin: 1rem 5rem 1rem 5rem;
     display: block;
     float: left;
+    /*Float property changes the orientation of an element*/
     position: relative;
     /*Relative means that elemant position is effected relative to its default position in normal document flow*/
     width: 8rem;
@@ -101,29 +137,41 @@ footer.footstyle2 {
     height: 200px;
     display: block;
     margin-top: -200px;*/
-    margin: 1rem 40rem 1rem -20rem;
+    clear: both;
+    /*Clear: both allows element to fall under previouse elements*/
+    /*that has been floated to left or right*/
+    margin: 200rem 40rem 1rem -20rem;
     display: block;
     float: left;
     position: relative;
     width: 30rem;
     height: 5rem;
-    padding: 1rem 50rem 1rem 3rem;
+    padding: 1rem 50rem 1rem 30rem;
     background-color: #e6ccff;
     /*Sets padding for top bottom right and left of content*/
 }
 
-figure {
-    position: relative;
-    float: left;
-    margin-left: -20rem;
+section#rabbit figure {
+    /*Within these brackets, these specifications apply to figure content within the section labeled with the id tag "rabbit"*/
+    float: right;
+    /*Float property changes the orientation of an element*/
+    /*Float preserves text wrap when not set to none*/
+    margin-left: 1rem;
 }
 
+    section#rabbit figure img {
+        /*Within these brackets, these specifications apply to img within figure within the section labeled with the id tag "rabbit"*/
+        width: 60%;
+        /*Adjusts width of image to 60% of parent value*/
+        /*In this case responive image values specified in aboutme file*/
+    }
 
 section.mainsection {
     /*Section semantically groups a selection of content that can't stand on it's own or*/
     /*multiple selections of content that aren't collectivly cohesive*/
     background-color: white;
     padding: 2rem;
+    margin-top: 4rem;
 }
 
 p.sectionpstyle {
@@ -160,14 +208,14 @@ html {
 
 p, h1, h2, li {
     /* font-family: Luminari, papyrus, fantasy;*/
-    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     /*changes the default font and supplies backup fonts in case the first choice is not avialable*/
 }
 
     p.format {
-        white-space: pre-wrap;
+        white-space: pre;
     }
-/*Preserves white space in paragraphs, wraps lines when nescisary*/
+/*Preserves white space in paragraphs*/
 
 
 p, li {
@@ -214,21 +262,25 @@ Nav {
     height: 5rem;
 }
 
-    header {
-        background-color: #ffce99;
-        /*Sets the background colour of content within the header*/
-        border-bottom: .3rem solid #4d0099;
-        /*Creates border bottom, .3rem determines thickness of border, solid styles the border solid, and then the colour is selected*/
-    }
+header {
+    background-color: #ffce99;
+    /*Sets the background colour of content within the header*/
+    border-bottom: .3rem solid #4d0099;
+    /*Creates border bottom, .3rem determines thickness of border, solid styles the border solid, and then the colour is selected*/
+}
 
-    header > h1 {
-        color: #4d0099;
-        /*Sets the colour of text within the h1 element if it is the child of header*/
-        line-height: 2.5rem;
-        /*Vertically sets the line height around text within the h1 element if it is the child of header*/
-    }
+.headerme {
+    margin: 0rem 0rem -20rem 0rem;
+}
 
-main {
+header > h1 {
+    color: #4d0099;
+    /*Sets the colour of text within the h1 element if it is the child of header*/
+    line-height: 2.5rem;
+    /*Vertically sets the line height around text within the h1 element if it is the child of header*/
+}
+
+main.indexmain {
     max-width: 33em;
     /*Sets max width of main element*/
     /*If content could exceed max width, height will be changed to compensate*/
@@ -241,6 +293,16 @@ main {
     position: relative;
     width: 30rem;
     height: 10rem;
+}
+
+main {
+    padding: 15rem 1rem 1rem 1rem;
+    margin: 1rem 1rem 1rem 1rem;
+    display: block;
+    position: relative;
+    float: none;
+    width: 60rem;
+    height: 60rem;
 }
 
 a:link {
