@@ -1,4 +1,4 @@
-﻿
+
     p.color{
         color:white;
     }
@@ -171,6 +171,7 @@ section.mainsection {
     /*multiple selections of content that aren't collectivly cohesive*/
     background-color: white;
     padding: 2rem;
+    margin-top: 4rem;
 }
 
 p.sectionpstyle {
@@ -346,3 +347,4 @@ a:active {
     text-decoration: none;
     /*Removes text decoration while link is in the process of being activated*/
 }
+
