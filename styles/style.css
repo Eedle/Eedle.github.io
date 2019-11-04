@@ -143,7 +143,7 @@ footer.footstyle2 {
     clear: both;
     /*Clear: both allows element to fall under previouse elements*/
     /*that has been floated to left or right*/
-    margin: 200rem 40rem 1rem -20rem;
+    margin: 300rem 40rem 1rem -20rem;
     display: block;
     float: left;
     position: relative;
