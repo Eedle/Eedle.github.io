@@ -168,7 +168,6 @@ section#rabbit figure {
 
 
 
-/* *********************************    */
 
 
 section.mainsection {
@@ -254,3 +253,27 @@ header {
     width: 30rem;
     height: 8rem;
 }
+
+
+/* *********************************    */
+
+
+
+header {
+    background-color: #ffce99;
+    /*Sets the background colour of content within the header*/
+    border-bottom: .3rem solid #4d0099;
+    /*Creates border bottom, .3rem determines thickness of border, solid styles the border solid, and then the colour is selected*/
+}
+
+.headerme {
+    margin: 0rem 0rem -20rem 0rem;
+}
+
+header > h1 {
+    color: #4d0099;
+    /*Sets the colour of text within the h1 element if it is the child of header*/
+    line-height: 2.5rem;
+    /*Vertically sets the line height around text within the h1 element if it is the child of header*/
+}
+
