@@ -38,6 +38,10 @@ div.bit-columns {
 }
 /*Id*/
 
+li nav ul {
+    display: inline-block;   
+}
+
 #aboutMyRabbit {
     clear: left;
 }
