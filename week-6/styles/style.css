@@ -238,14 +238,4 @@ li {
     /*Changes fontsize of list item element by an order of em units*/
 }
 
-header {
-    padding: 1rem 35rem 1rem 10rem;
-    /*In this case, adds padding to the peices of content within header and main*/
-    /*Padding is the horizontal &/or vertical space between a peice of content and it's rectangular border*/
-    margin: 1rem 5rem 1rem 5rem;
-    display: block;
-    float: left;
-    position: relative;
-    width: 30rem;
-    height: 8rem;
-}
+
