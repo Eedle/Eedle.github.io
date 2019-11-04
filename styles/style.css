@@ -222,7 +222,7 @@ p, h1, h2, li {
 
 
 p, li {
-    font-size: 1.8em;
+    font-size: 2em;
     /*Changes the font size of paragraph and list elements to be 1.8 times the size of the font set in the html tag*/
 }
 
