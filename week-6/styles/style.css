@@ -165,3 +165,92 @@ section#rabbit figure {
         /*Adjusts width of image to 60% of parent value*/
         /*In this case responive image values specified in aboutme file*/
     }
+
+
+
+/* *********************************    */
+
+
+section.mainsection {
+    /*Section semantically groups a selection of content that can't stand on it's own or*/
+    /*multiple selections of content that aren't collectivly cohesive*/
+    background-color: white;
+    padding: 2rem;
+    margin-top: 4rem;
+}
+
+p.sectionpstyle {
+    color: black;
+}
+
+section.section1 {
+    background-color: #bf80ff;
+    padding: 1rem;
+}
+
+aside {
+    /*Aside designates a selection of content that isn't related to main content*/
+    /*For example, like a side note*/
+    border: .5rem dashed #4d0099;
+    background-color: #e6ccff;
+}
+
+    aside > h2 {
+        /*For heading 2s that are children of asides, the specificaitons within the brackets will apply*/
+        font-size: 2rem;
+        padding-left: 1rem;
+    }
+
+p, li, h1, ul {
+    color: DarkSlateGray;
+    /*Changes the color of paragraphs, list items, unorganized lists, and heading 1s.*/
+}
+
+html {
+    font-size: 10px;
+    /*Sets the default font size across all html pages referencing this CSS file*/
+}
+
+p, h1, h2, li {
+    /* font-family: Luminari, papyrus, fantasy;*/
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    /*changes the default font and supplies backup fonts in case the first choice is not avialable*/
+}
+
+    p.format {
+        white-space: pre;
+    }
+/*Preserves white space in paragraphs*/
+
+
+p, li {
+    font-size: 1.8em;
+    /*Changes the font size of paragraph and list elements to be 1.8 times the size of the font set in the html tag*/
+}
+
+h1 {
+    font-size: 3em;
+    /*Changes fontsize of heading one element by an order of em units*/
+}
+
+h2 {
+    font-size: 2.4em;
+    /*Changes fontsize of heading two element by an order of em units*/
+}
+
+li {
+    line-height: 2.5rem;
+    /*Changes fontsize of list item element by an order of em units*/
+}
+
+header {
+    padding: 1rem 35rem 1rem 10rem;
+    /*In this case, adds padding to the peices of content within header and main*/
+    /*Padding is the horizontal &/or vertical space between a peice of content and it's rectangular border*/
+    margin: 1rem 5rem 1rem 5rem;
+    display: block;
+    float: left;
+    position: relative;
+    width: 30rem;
+    height: 8rem;
+}
