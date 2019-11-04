@@ -329,21 +329,5 @@ ul.navbar li a:hover {
 
 
 
-a:hover {
-    color: #660066;
-    /*Changes the colour of link when hovered over by cursor*/
-    text-decoration: none;
-    /*Removes text decoration of link, in this case underline*/
-    background-color: #cc99ff
-    /*Changes the background colour of box around link content*/
-}
 
-a:active {
-    background-color: #660066;
-    /*Changes background colour of box around link content while link is in the process of being activated*/
-    /*For example, while cursor is over link and left mouse button is held down, but not yet released*/
-    color: #cc99ff;
-    /*Changes the colour of link text while link is in the process of being activated*/
-    text-decoration: none;
-    /*Removes text decoration while link is in the process of being activated*/
 }
