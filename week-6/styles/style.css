@@ -249,17 +249,6 @@ header {
     height: 8rem;
 }
 
-Nav {
-    padding: 1rem 1rem 1rem 1rem;
-    /*In this case, adds padding to the peices of content within header and main*/
-    /*Padding is the horizontal &/or vertical space between a peice of content and it's rectangular border*/
-    margin: 1rem 1rem 1rem 1rem;
-    display: block;
-    float: left;
-    position: relative;
-    width: 40rem;
-    height: 5rem;
-}
 
 header {
     background-color: #ffce99;
