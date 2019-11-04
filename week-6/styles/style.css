@@ -1,5 +1,4 @@
 
-
     p.color{
         color:white;
     }
@@ -38,10 +37,6 @@ div.bit-columns {
 }
 /*Id*/
 
-li nav ul {
-    display: inline-block;   
-}
-
 #aboutMyRabbit {
     clear: left;
 }
@@ -52,7 +47,7 @@ body.backdrop {
 
 
 body.backdropW5 {
-    background-color: LightSteelBlue;
+    background-color: #b3e6ff;
 }
 
 /*A Class that will effect the background color of body sections labled with class="backdrop"*/
@@ -76,7 +71,7 @@ header.banner {
     text-decoration: none;
     /*Removes decoration from text content*/
     position: relative;
-    margin: 1rem 0rem 1rem 20rem;
+    margin: 1rem 0rem 1rem 10rem;
     padding: 0rem 20rem 0rem 10rem;
 }
 
@@ -84,22 +79,20 @@ ul.navbar {
     /*Within these brackets, these specifications aply to unordered lists labeled with class= "navbar"*/
     list-style-type: none;
     /*Removes bullet points from unordered list*/
-    margin: 0rem 0rem 0rem 20rem;
+    margin: 0rem;
     /*Removes default margin settings*/
-    padding:  0rem 0rem 0rem 20rem;
+    padding: 0rem;
     /*Removes default padding settings*/
     overflow: hidden;
     /*If content overflows box it should be clipped/hidden*/
     background-color: white;
     /*Collectivly sets background colour of content, padding, and border to grey*/
-    width:200rem;
 }
 
 li.navbaritem {
     float: left;
     /*Float property changes the orientation of an element*/
     /*In this case, want blocks to sit next to eachother*/
-     width: 500px;
 }
 
 li a.navbaritem2 {
@@ -113,8 +106,6 @@ li a.navbaritem2 {
     /*Shorthand, first value sets padding top and bottom, second value sets padding left and right*/
     text-decoration: none;
     height: 2rem;
-    width: 120px;
-    float: left;
 }
 
 /*div.navbarbox {
@@ -240,4 +231,9 @@ h1 {
 h2 {
     font-size: 2.4em;
     /*Changes fontsize of heading two element by an order of em units*/
+}
+
+li {
+    line-height: 2.5rem;
+    /*Changes fontsize of list item element by an order of em units*/
 }
