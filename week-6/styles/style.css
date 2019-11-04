@@ -86,12 +86,13 @@ ul.navbar {
     /*Removes bullet points from unordered list*/
     margin: 0rem 0rem 0rem 20rem;
     /*Removes default margin settings*/
-    padding: 0rem;
+    padding:  0rem 0rem 0rem 20rem;
     /*Removes default padding settings*/
     overflow: hidden;
     /*If content overflows box it should be clipped/hidden*/
     background-color: white;
     /*Collectivly sets background colour of content, padding, and border to grey*/
+    width:200rem;
 }
 
 li.navbaritem {
