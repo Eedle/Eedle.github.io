@@ -76,7 +76,7 @@ header.banner {
     text-decoration: none;
     /*Removes decoration from text content*/
     position: relative;
-    margin: 1rem 0rem 1rem 10rem;
+    margin: 1rem 0rem 1rem 20rem;
     padding: 0rem 20rem 0rem 10rem;
 }
 
@@ -84,7 +84,7 @@ ul.navbar {
     /*Within these brackets, these specifications aply to unordered lists labeled with class= "navbar"*/
     list-style-type: none;
     /*Removes bullet points from unordered list*/
-    margin: 0rem;
+    margin: 0rem 0rem 0rem 20rem;
     /*Removes default margin settings*/
     padding: 0rem;
     /*Removes default padding settings*/
@@ -98,7 +98,7 @@ li.navbaritem {
     float: left;
     /*Float property changes the orientation of an element*/
     /*In this case, want blocks to sit next to eachother*/
-     width: 120px;
+     width: 500px;
 }
 
 li a.navbaritem2 {
