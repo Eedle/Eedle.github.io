@@ -294,3 +294,39 @@ main.indexmain {
     height: 10rem;
 }
 
+ /* *********************************    */
+
+main {
+    padding: 15rem 1rem 1rem 1rem;
+    margin: 1rem 1rem 1rem 1rem;
+    display: block;
+    position: relative;
+    float: none;
+    width: 60rem;
+    height: 60rem;
+}
+
+a:link {
+    color: #660066;
+    /*Sets the default colour of links univisited*/
+}
+
+
+a:visited {
+    color: #ff8c1a;
+    /*Sets the colour of visited links*/
+}
+
+ul.navbar li a:hover {
+    background-color: grey;
+    color: white;
+}
+/*For list elemets that are children of ulclassnavbar, background color and text color will change on hover*/
+
+/*.banner .navbar .navbaritem li:nth-child(3) a:hover {
+    background-color: black;
+    color: white;
+}*/
+
+
+
