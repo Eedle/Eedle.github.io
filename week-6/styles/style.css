@@ -1,4 +1,5 @@
- p.color{
+
+    p.color{
         color:blueviolet;
     }
 
@@ -330,6 +331,7 @@ a:active {
     text-decoration: none;
     /*Removes text decoration while link is in the process of being activated*/
 }
+
 
 
 
