@@ -84,10 +84,11 @@ ul.navbar {
     /*Removes default margin settings*/
     padding: 0rem;
     /*Removes default padding settings*/
-    overflow: hidden;
+    /*overflow: hidden;*/
     /*If content overflows box it should be clipped/hidden*/
     background-color: white;
     /*Collectivly sets background colour of content, padding, and border to grey*/
+    width: 20rem;
 }
 
 li.navbaritem {
