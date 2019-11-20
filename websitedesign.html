@@ -1,0 +1,520 @@
+﻿<html lang="en">
+<head>
+    <style>
+        html {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 10px;
+        }
+
+        body {
+            max-width: 1000px;
+            margin: auto;
+            font-size: 1.9em;
+            padding: 1em;
+        }
+
+        footer {
+            border-top: 6px solid #999;
+            margin-top: 3em;
+            padding-top: 2em;
+        }
+        /* I picked some really awful colors. Curious to see how many of you modify them. */
+        section h1 {
+            background-color: #f8dea5;
+            padding: .5em;
+            ;
+            border-top: 5px solid #995c33;
+            border-radius: 10px;
+            margin-left: -.5em;
+            margin-right: -.5em;
+        }
+
+        header h1 {
+            background-color: #995c33;
+            color: #ccc;
+            padding: .5em;
+            ;
+            border-top: 5px solid #f8dea5;
+            border-radius: 10px;
+            margin-left: -1em;
+            margin-right: -1em;
+        }
+
+        header nav ul {
+            list-style-type: none;
+            background-color: #f7c049;
+        }
+
+            header nav ul li {
+                display: inline-block;
+            }
+
+                header nav ul li a {
+                    color: #995c33;
+                    display: block;
+                    text-decoration: none;
+                    padding: 10px;
+                }
+
+                    header nav ul li a:hover {
+                        background-color: #f8dea5;
+                    }
+
+        #project-plan dt {
+            border-top: 2px solid #000;
+            font-weight: bold;
+            margin-top: 1em;
+            padding-top: 1em;
+        }
+
+        #project-plan dd:last-child {
+            border-bottom: 6px solid #000;
+            margin-bottom: 2em;
+            padding-bottom: 1em;
+            margin-left: inherit;
+            padding-left: 2em;
+        }
+
+        #development-guide ul li {
+            line-height: 1.5;
+        }
+
+        ul.structure,
+        ul.structure ul {
+            list-style: none;
+        }
+
+            ul.structure li.folder:before {
+                content: "\1F4C1";
+                font-size: 1.5em;
+                font-weight: bold;
+                padding-right: 0.5em;
+            }
+
+            ul.structure li:before {
+                content: "\1f4c4";
+                font-size: 1.5em;
+                font-weight: bold;
+                padding-right: 0.5em;
+            }
+
+        .colorcontainer {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            margin: 1em;
+        }
+
+        .color-item {
+            border: 1px solid #000;
+            padding: 1em;
+            margin: 0.5em;
+        }
+
+        .color-chip {
+            width: 100px;
+            height: 100px;
+        }
+
+        dl.styles-guide dt {
+            font-weight: bold;
+            border-top: 1px dashed #333;
+            margin-top: 1em;
+            padding-top: 1em;
+        }
+
+        .code {
+            font-family: "Courier New", Courier, monospace;
+            color: #993333;
+            font-size: 0.9em;
+            margin-left: 2em;
+        }
+
+        .highlight {
+            background-color: f7c049;
+            font-weight: bold;
+        }
+
+        img {
+            width: 100%;
+        }
+    </style>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <title>RJ's Art and Things Of Interest</title>
+</head>
+<body>
+    <header>
+        <h1>Site: RJ's Art and Things Of Interest</h1>
+        <p>
+            Developer: RJ Roy<br />
+            <!-- this will automatically update with the file date; no need to change it-->
+            <span id="modified"></span>
+            <!--end date section-->
+        </p>
+        <nav>
+            <ul>
+                <li><a href="#project-plan">Project plan</a></li>
+                <li><a href="#development-guide">Development guide</a></li>
+                <li><a href="#design-guide">Design guide</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="project-plan">
+            <h1>Project plan</h1>
+            <dl>
+                <dt>Title</dt>
+                <dd><p>RJ's Art and Things Of Interest</p></dd>
+
+                <dt>Goal</dt>
+                <dd>
+                    <p>
+                        The website I create for the purposes of this project will represent a framework that I hope to expand into a repository for creative works and personal projects I  have created, including comics/manga, written works, sculptures, and miscellaneous drawings.
+                    </p>
+                </dd>
+                <dt>Target Audience</dt>
+                <dd>
+                    <p>
+                        The author of the first webcomic, Eric Millikin, valued the Internet because it allowed him the creative freedom to self publish his work without concerning himself over censorship or pleasing specific demographics. I value the Internet for the similar reasons, and dislike the concept of target demographics.
+                    </p>
+
+                    <p>
+                          By definition, repeated visitors to my website will probably be people who are interested in what I make. This may include fans of comics, sculptures, parodies of specific media, animation, the strange, and the incomprehensible. However, I have no intention of tailoring what I make to suite anyone's interests but my own. At most I will make and effort to organize my website so that it is simple to navigate, with the intention that my family and I can easily locate specific works.
+                    </p>
+                        Ideally, the majority of people to visit my website would be those to whom I have personally presented a link and who know what to look for.
+                    </p>
+
+                </dd>
+                <dt>Main Features</dt>
+                <dd>
+
+                    <ul>
+                        <li> Navigation bar/list including links to different pages representing different mediums </li>
+
+                        <li>Navigation hubs for specific mediums containing links to individual works or chapters</li>
+
+                        <li> Images</li>
+
+                        <li>Back and forward arrows (images linked for the purpose of navigating to immediately previous/subsequent chapters)</li>
+
+                        <li> About page breifly describing purpose of website</li>
+
+
+                    </ul>
+                </dd>
+                <dt>Personality</dt>
+                <dd>
+                    <p>Site Mood</p>
+
+                    <ul>
+
+                        <li>Archaic</li>
+                        <li>Dark</li>
+                        <li>Cozy</li>
+                        <li>Personal</li>
+                        <li>Obscure</li>
+                        <li>Secret</li>
+
+                    </ul>
+
+
+                    <dt>How the Mood Should Effect Visitors</dt>
+
+                    <p>If a stranger were to stumble upon my personal website, I’d hope they'd feel like they’d found something they were never meant to. I expect they'de feel some combination of intrigue and confusion at first, due to the seemingly random and mostly unexplained assortment of content. The aesthetic itself should convey a feeling of dark seclusion, like a cozy cave lit by a fire.</p>
+                </dd>
+                <dt>Limiting Factors</dt>
+                <dd>
+                    <p>
+                        I expect I'll only create the basic outline of what I intend to be the final product in this class, because the scope of collecting and then digitally photographing/scanning/transcribing all my work is an undertaking that will require a huge time investment. The only way to get it done is to cumulatively add more works over time, along with increasingly specific sub-navigation lists to organize works as needed.
+                    </p>
+
+                    <p> Other limitations include my grandfather's internet speed, and my desire to be able to look up my art while I'm traveling. Taking these limitations into consideration, I should check that my images show up well on mobile devices and that my site doesn't take up too much bandwidth.</p>
+
+                </dd>
+            </dl>
+        </section>
+        <section id="development-guide">
+            <h1>Development guide</h1>
+            <h2>Site structure</h2>
+            <ul>
+                <li>
+                    Root Directory
+                    <ul>
+                        <li>images directory – contains jpgs and gifs</li>
+                        <li>styles directory – contains all of the style sheets</li>
+                        <li>hub directory – contains hubs for navigation links</li>
+                        <li>works directory – contains individual creative works</li>
+                        <li>
+                            index.html – home page for site, site purpose and overview
+                        </li>
+                        <li>
+                            about.html - contains informationa about site purpose
+                        </li>
+
+
+                    </ul>
+                </li>
+            </ul>
+
+            <h2>Visual representation of site structure</h2>
+            <ul class="structure">
+                <!-- displays as page icon unless you use class="folder" -->
+                <li class="folder">
+                    Root Directory
+                    <ul>
+                        <li class="folder">images directory – contains jpgs and gifs</li>
+                        <li class="folder">
+                            styles directory – contains all of the style sheets
+                        </li>
+                        <li class="folder">
+                            hub directory – contains hubs for navigation links
+                        </li>
+                        <li class="folder">
+                            works directory – contains individual creative works
+                        </li>
+                        <li>
+                            index.html – home page for site, site purpose and overview
+                        </li>
+                        <li>
+                            about.html - contains informationa about site purpose
+                        </li>
+
+                    </ul>
+                </li>
+            </ul>
+            <h2>Navigation elements</h2>
+            <p>
+                Navigation – There is a navigation bar at the <span class="highlight">top of the page</span> that links to all pages in the site.
+            </p>
+    
+            <p>
+                "Back" and "Next" arrows in the form of linked images will be present at the bottom of pages displaying individual chapters of a webcomic.
+            </p>
+            <h3>Navigation structure</h3>
+            <ul>
+                <li>Home</li>
+                <li>
+                    Written Works
+                    <ul>
+                        <li>
+                            Inditerminate number of links to stories I write (Number will increase)
+
+                        </li>
+
+
+                    </ul>
+                    <p> *For purposes of this assignment, 1 link</p>
+
+                </li>
+                <li>
+                    Comics/manga
+                    <ul>
+                        <li>
+                            Inditerminate number of links to comics series I draw (Number will increase)
+
+                        </li>
+
+                   
+                    </ul>
+                    <p> *For purposes of this assignment, 1 link</p>
+
+
+                </li>
+                <li>
+                    Sculptures
+                    <ul>
+                        <li>
+                            Inditerminate number of links to photo collections of clay figures (Number will increase)
+
+                        </li>
+
+                    </ul>
+                    <p> *For purposes of this assignment, 1 link</p>
+                </li>
+                <li>
+                    Drawings
+                    <ul>
+                        <li>
+                            Inditerminate number of links to inidivdual drawings (Number will increase)
+                        </li>
+
+                    </ul>
+                    <p> *For purposes of this assignment, 3 links</p>
+
+                </li>
+                <li>
+                    About
+                    <ul>
+                        <li>
+                            No links
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <h2>HTML template</h2>
+            <p>
+                I will be basing my pages on 
+                <a href="https://github.com/Eedle/Eedle.github.io/blob/master/week-6/aboutme.html">this HTML template</a>.
+            </p>
+            <h2>Wireframe site</h2>
+            <p>
+                <span class="highlight">These <a href="wireindex.html"> wireframes</a></span> let you navigate
+                the basic structure of my site.
+            </p>
+        </section>
+        <section id="design-guide">
+            <h1>Design guide</h1>
+            <h2>Color Palette</h2>
+            <p>
+                The following is the list of colors that may be used.
+            </p>
+
+            <div class="colorcontainer">
+                <div class="color-item">
+                    <p>Light Sepia</p>
+                    <p>#DAC17c</p>
+                    <div class="color-chip" style="background-color: #DAC17c"></div>
+                </div>
+                <div class="color-item">
+                    <p>Dark Red</p>
+                    <p>#990000</p>
+                    <div class="color-chip" style="background-color: #990000"></div>
+                </div>
+                <div class="color-item">
+                    <p>Black</p>
+                    <p>#000000</p>
+                    <div class="color-chip" style="background-color: #000000"></div>
+                </div>
+
+
+                <div class="color-item">
+                    <p>Brown</p>
+                    <p>#855723</p>
+                    <div class="color-chip" style="background-color: #855723"></div>
+                </div>
+
+                <div class="color-item">
+                    <p>White</p>
+                    <p>#FFFFFF</p>
+                    <div class="color-chip" style="background-color: #FFFFFF"></div>
+                </div>
+
+            </div>
+
+            <h2>Media assets</h2>
+            <h3>General Guidelines</h3>
+
+                    <p>
+                        All the images utilized in the creation of my website will be images I have authored.
+                    </p>
+
+                    <p>Though currently I'm using a mix of pngs and jpgs, I intend to convert all my images into pngs before this assignment is over.</p>
+
+            <p>Images I Currently Plan to Use to Decorate my Site:</p>
+            <ul>
+                <li>scroll.png (yet to be created)</li>
+                <li>paper.png</li>
+                <li>paperburned.png</li>
+            </ul>
+
+            <p>Sample Images of Creative Works</p>
+
+            <ul>
+                <li>samplecomic.png</li>
+                <li>hermit.jpg</li>
+                <li>portrait.jpg</li>
+                <li>compassion.png</li>
+                <li>sampleclay1.jpg</li>
+                <li>sampleclay2.jpg</li>
+            </ul>
+
+
+            <h2>
+                Styles guide
+
+            </h2>
+            <dl class="styles-guide">
+                <dt>Background</dt>
+                <dd>
+                    <p>Background is Black (will be overlayed with sepia parchment image)</p>
+                    <p class="code">{background-color: #000000}</p>
+                </dd>
+                <dt>Default font</dt>
+                <dd>
+                    <p>Default text is white, 14 pixels</p>
+                    <p>Note: I intend to overlay an image of parchment over the black background in main, and text written over this image should be black</p>
+                    <p>Things like the footer may be in white against black.</p>
+                    <p class="code">p { font-size: 14px; color: #ffffff;}</p>
+                </dd>
+                <dt>Header</dt>
+                <dd>
+                    <p>
+                        The header section is 50px tall, positioned along the top of each page and contains the name of the wesbite. The background is dark red. Navigation will be placed outside of header.
+                    </p>
+                    <p class="code">
+                        header { <br>height: 50px; <br>background-color: ##990000; 
+
+                    </p>
+                </dd>
+                <dt>Navigation</dt>
+                <dd>
+                    <p>
+                        The main navigation is 120px tall, positioned just below the header. It will have no background color if it contains a sepia scroll image. The font will also be black. If I don't have a sepia scroll image, the background color will simply be sepia.
+                    </p>
+                    <p class="code">
+                        nav { height: 120px; color: #000000; }
+                        <br>background-image: url("/images/scroll.png"); <br>background-repeat: no-repeat; <br>
+                        background-position: center; <br>background-size: cover;<br>}
+                    </p>
+                </dd>
+                <dt>Images</dt>
+                <dd>
+                    <p>
+                        There will be no background color or border applied to the figure container. By default images will have a padding of 1 em.
+                    </p>
+
+                    <p class="code">img { padding: 1em; }</p>
+                </dd>
+                <dt>Links</dt>
+                <dd>
+                    <p>
+                        Links will be dark red. On hover, they will have a brown
+                        background, white text, and a solid dark red border.
+                    </p>
+                    </p>
+                    <p class="code">a { color: #990000 }</p>
+                    <p class="code">a:hover { background-color: #855723; color: #ffffff; border 2px solid #990000; }</p>
+                </dd>
+            </dl>
+            <h2>Layout sketch</h2>
+            <img src="images/layout.jpg" alt="Site layout sketch">
+        </section>
+    </main>
+    <footer>
+        &copy;RJ Roy (lies)
+    </footer>
+    <!-- Enable includes -->
+    <script src="../scripts/includes.js"></script>
+
+    <!-- Script below includes file date update -->
+
+    <script>includeHTML();
+      // get last updated date as a new date object
+      var modDate = new Date(document.lastModified);
+      // set up some formatting options
+      var options = {
+        weekday: "long",
+        year: "numeric",
+        month: "long",
+        day: "numeric"
+      };
+      // format it
+      var modDateString = modDate.toLocaleDateString("en-US", options);
+      // display it in the document
+      document.getElementById("modified").innerHTML =
+        "Updated: " + modDateString;</script>
+</body>
+</html>
