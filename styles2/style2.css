@@ -114,9 +114,9 @@ a:visited {
     /*Sets the colour of visited links*/
 }
 
-a:link.arrow {
-    color: white;
-}
+    a:visited.arrow {
+        color: white;
+    }
 
 img {
     padding: 1em;
