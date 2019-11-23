@@ -1,0 +1,145 @@
+﻿p {
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+h1, h2, li {
+    font-family: Luminari, papyrus, fantasy;
+}
+
+
+html {
+    font-size: 14px;
+}
+
+body {
+    background-color: #000000;
+}
+
+main.space {
+    height: 30em;
+    text-align: center;
+}
+
+main > p, h2 {
+    padding-top: 2em;
+}
+
+main {
+    margin-top: 3em;
+}
+
+p {
+    color: #000000;
+}
+
+header, footer > p {
+    color: white;
+}
+
+
+
+main > p {
+    font-size: 1.5em;
+}
+
+
+header {
+    height: 50px;
+    background-color: #990000;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+nav {
+    background-image: url("images/paper.png");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 1em;
+
+}
+
+figcaption {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+footer {
+    font-size: 1.5em;
+}
+
+
+ul.bar {
+    /*Within these brackets, these specifications aply to unordered lists labeled with class= "navbar"*/
+    list-style-type: none;
+    /*Removes bullet points from unordered list*/
+    margin: 0rem;
+    /*Removes default margin settings*/
+    padding: 0rem;
+    /*Removes default padding settings*/
+    overflow: hidden;
+    /*If content overflows box it should be clipped/hidden*/
+}
+
+li.item {
+    margin-top: 2rem;
+    float: left;
+    /*Float property changes the orientation of an element*/
+    /*In this case, want blocks to sit next to eachother*/
+    display: block;
+    /*Displays element in block that spans entire width of content*/
+    /*Link is clickable within all area of block*/
+    text-align: center;
+    /*Controls horizontal alignment of text*/
+    padding: 1rem;
+    /*Sets padding around content within list element*/
+    /*Shorthand, first value sets padding top and bottom, second value sets padding left and right*/
+    text-decoration: none;
+    height: 2rem;
+    font-size: 2em;
+}
+
+a:link {
+    color: #990000;
+}
+
+    a:link.arrow {
+        color: white;
+    }
+
+a:visited {
+    color: #855723;
+    /*Sets the colour of visited links*/
+}
+
+a:link.visited {
+    color: white;
+}
+
+img {
+    padding: 1em;
+}
+
+ img.comic {
+        padding: 0em;
+    }
+
+a:hover {
+    background-color: #855723;
+    color: #DAC17c;
+    border: 2px solid #990000;
+}
+
+a:active {
+    background-color: #DAC17c;
+    /*Changes background colour of box around link content while link is in the process of being activated*/
+    /*For example, while cursor is over link and left mouse button is held down, but not yet released*/
+    color: #855723;
+    border: 2px solid #000000;
+    /*Changes the colour of link text while link is in the process of being activated*/
+    text-decoration: none;
+    /*Removes text decoration while link is in the process of being activated*/
+}
+
