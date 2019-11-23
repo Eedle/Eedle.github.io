@@ -72,6 +72,7 @@ figcaption {
 footer {
     font-size: 1.5em;
     color: white;
+    padding: 1em;
 }
 
 
@@ -131,8 +132,12 @@ a:visited {
         color: white;
     }
 
-img {
-    padding: 1em;
+    img {
+        padding: 1em;
+    }
+
+figure {
+    text-align: center;
 }
 
  img.comic {
