@@ -6,7 +6,7 @@
     <!-- Head contains no title -->
 
     <head>
-    
+
         <body>
 
             <!-- Lacks any "mai" container -->
@@ -58,21 +58,20 @@
 
             <img src="../frog.png">
             <!-- Incorrect file path, though image still loads on github (not on my local computer, even though site structure is the same)-->
-                <!-- I think this is because there is no higher level folder in github, but on local computer all files are inside test-site folder.-->
+            <!-- I think this is because there is no higher level folder in github, but on local computer all files are inside test-site folder.-->
             <!-- frog.png located in same directory, not one level above-->
-                
             This is a time frog in a microwawve universe.
             <!-- This "image caption" isn't an actual <figcaption>, and text formates to side of image instead of under it, making its purpose confusing-->
             <!-- Text isn't in any container-->
 
-            <p>*For limited time rf you feed your broter to the mosnter under the bed, you win a 
-                
-                   <p class="green"> free <p>  
-                       
-           <!-- This fragment of text is in a sepperate paragraph just do it can be styled with a sepperate paragraph class-->
-            <!-- Could have used <span> to apply styling to specific portions of text within the same paragraph element -->
-                        
-                           <p> adyience witht he time frog.</p>
+            <p>*For limited time rf you feed your broter to the mosnter under the bed, you win a
+
+            <p class="green">free</p>
+
+                <!-- This fragment of text is in a sepperate paragraph just do it can be styled with a sepperate paragraph class-->
+                <!-- Could have used <span> to apply styling to specific portions of text within the same paragraph element -->
+
+            <p> adyience witht he time frog.</p>
 
         </body>
 
@@ -109,6 +108,11 @@
                     font-family: Haettenschweiler;
                 }
 
+                p.green {
+                    color: green;
+                    font-family: Haettenschweiler;
+                }
+
             a {
                 text-decoration: none;
                 color: green;
@@ -135,3 +139,4 @@
         </style>
 
         </html>
+
