@@ -6,6 +6,9 @@ h1, h2, li {
     font-family: Luminari, papyrus, fantasy;
 }
 
+h2 {
+    font-size: 2em;
+}
 
 html {
     font-size: 14px;
@@ -32,11 +35,11 @@ p {
     color: #000000;
 }
 
-
-footer {
-    font-size: 1.5em;
+header, footer > p {
     color: white;
 }
+
+
 
 main > p {
     font-size: 1.5em;
@@ -68,6 +71,7 @@ figcaption {
 
 footer {
     font-size: 1.5em;
+    color: white;
 }
 
 
@@ -99,6 +103,15 @@ li.item {
     text-decoration: none;
     height: 2rem;
     font-size: 2em;
+}
+
+a {
+   font-size: 1.5em;
+}
+
+li.item > a {
+    font-size: 1em;
+    text-decoration: none;
 }
 
 a:link {
@@ -142,5 +155,4 @@ a:active {
     text-decoration: none;
     /*Removes text decoration while link is in the process of being activated*/
 }
-
 
