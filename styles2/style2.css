@@ -1,4 +1,4 @@
-﻿p {
+p {
     font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
 }
 
@@ -114,7 +114,7 @@ a:visited {
     /*Sets the colour of visited links*/
 }
 
-a:link.visited {
+a:link.arrow {
     color: white;
 }
 
@@ -142,4 +142,5 @@ a:active {
     text-decoration: none;
     /*Removes text decoration while link is in the process of being activated*/
 }
+
 
