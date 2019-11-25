@@ -51,9 +51,7 @@ main > p {
     font-size: 1.5em;
 }
 
-
 header {
-    height: 50px;
     background-color: #990000;
     padding-top: 2em;
     padding-bottom: 1em;
@@ -67,7 +65,7 @@ nav {
     background-position: center;
     background-size: cover;
     margin-top: 1em;
-
+    margin-bottom: 1em;
 }
 
 figcaption {
@@ -86,9 +84,9 @@ ul.bar {
     /*Within these brackets, these specifications aply to unordered lists labeled with class= "navbar"*/
     list-style-type: none;
     /*Removes bullet points from unordered list*/
-    margin: 0rem;
+    margin: 0em;
     /*Removes default margin settings*/
-    padding: 0rem;
+    padding: 0em 0em 1em 0em;
     /*Removes default padding settings*/
     overflow: hidden;
     /*If content overflows box it should be clipped/hidden*/
@@ -121,12 +119,27 @@ li.item > a {
     text-decoration: none;
 }
 
+/*
+li.item > a {
+    font-size: 1em;
+    text-decoration: none;
+    display: block;
+    height: 200px;
+    width: 180px;
+}
+    */
+
 a:link {
     color: #990000;
+    /*padding: .5em;*/
 }
 
     a:link.arrow {
-        color: white;
+        color: #ffffff;
+    }
+
+    a:link.redirect {
+       color: #ffffff;
     }
 
 a:visited {
@@ -136,6 +149,11 @@ a:visited {
 
     a:visited.arrow {
         color: white;
+    }
+
+    a:visited.redirect {
+        color: #ffffff;
+
     }
 
     img {
@@ -156,6 +174,11 @@ a:hover {
     border: 2px solid #990000;
 }
 
+    a:hover.redirect {
+        background-color: #ffffff;
+        color: #000000;
+    }
+
 a:active {
     background-color: #DAC17c;
     /*Changes background colour of box around link content while link is in the process of being activated*/
@@ -167,3 +190,7 @@ a:active {
     /*Removes text decoration while link is in the process of being activated*/
 }
 
+    a:active.redirect {
+        background-color: #990000;
+        color: #ffffff;
+    }
