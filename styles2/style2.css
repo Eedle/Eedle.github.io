@@ -1,6 +1,7 @@
 p {
     font-family: Georgia, serif,'Times New Roman', Times, Cochin;
     font-size: 1.5em;
+    color: #000000;
 }
 
 h1, h2, li {
@@ -37,9 +38,6 @@ main {
     margin-top: 3em;
 }
 
-p {
-    color: #000000;
-}
 
 header, footer > p {
     color: white;
