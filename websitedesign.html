@@ -416,23 +416,20 @@
 
             <p>Images I Currently Plan to Use to Decorate my Site:</p>
             <ul>
-                <li>scroll.png (yet to be created)</li>
                 <li>paper.png</li>
-                <li>paperburned.png</li>
-                <li>rjlogo.png (yet to be created)</li>
+                <li>rjlogo.png (yet to be finalized)</li>
             </ul>
 
             <p>Sample Images of Creative Works</p>
 
             <ul>
-                <li>samplecomic.png</li>
-                <li>hermit.jpg</li>
-                <li>portrait.jpg</li>
-                <li>compassion.png</li>
-                <li>sampleclay1.jpg</li>
-                <li>sampleclay2.jpg</li>
+                <li>samplecomic1200.png</li>
+                <li>mjug1200.jpg</li>
+                <li>portrait1200.jpg</li>
+                <li>Variant1200.jpg</li>
             </ul>
 
+            <p>Note: Other size variations of each of these images will be included as part of responsive image design.</p>
 
             <h2>
                 Styles guide
@@ -449,27 +446,44 @@
                     <p>Default text is white, 14 pixels</p>
                     <p>Note: I intend to overlay an image of parchment over the black background in main, and text written over this image should be black</p>
                     <p>Things like the footer may be in white against black.</p>
-                    <p class="code">p { font-size: 14px; color: #ffffff;}</p>
+                    <p class="code">
+                        p {
+                        <br />font-family: Georgia, serif,'Times New Roman', Times, Cochin;
+                        <br />font-size: 1.5em;
+                        <br />color: #000000;
+                        }
+                    </p>
                 </dd>
                 <dt>Header</dt>
                 <dd>
                     <p>
-                        The header section is 50px tall, positioned along the top of each page and contains the name of the wesbite. The background is dark red. Navigation will be placed outside of header.
+                        The header section has 2em of top padding and 1em of bottom padding, is positioned along the top of each page, and contains the name of the wesbite. The background is dark red. Navigation will be placed outside of header.
                     </p>
                     <p class="code">
-                        header { <br>height: 50px; <br>background-color: ##990000; 
+                        header {
+                        <br />background-color: #990000;
+                        <br />padding-top: 2em;
+                        <br />padding-bottom: 1em;
+                        <br />text-align: center;
+                        }
 
                     </p>
                 </dd>
                 <dt>Navigation</dt>
                 <dd>
                     <p>
-                        The main navigation is 120px tall, positioned just below the header. It will have no background color if it contains a sepia scroll image. The font will also be black. If I don't have a sepia scroll image, the background color will simply be sepia.
+                        The main navigation will have a top and bottom padding of 1em, and bepositioned just below the header. It will have no background color if it contains a sepia scroll image. The font will also be black. Until I create a sepia colored scroll image, I'll use my paper image as a substitute.
                     </p>
                     <p class="code">
-                        nav { height: 120px; color: #000000; }
-                        <br>background-image: url("/images/scroll.png"); <br>background-repeat: no-repeat; <br>
-                        background-position: center; <br>background-size: cover;<br>}
+                        nav {
+                        background-image: url("images/paper.png");
+                        <br /> #cccccc;
+                        <br />background-repeat: no-repeat;
+                        <br />background-position: center;
+                        <br />background-size: cover;
+                        <br />margin-top: 1em;
+                        <br />margin-bottom: 1em;
+                        }
                     </p>
                 </dd>
                 <dt>Images</dt>
@@ -488,7 +502,7 @@
                     </p>
                     </p>
                     <p class="code">a { color: #990000 }</p>
-                    <p class="code">a:hover { background-color: #855723; color: #ffffff; border 2px solid #990000; }</p>
+                    <p class="code">a:hover { background-color: #855723; <br />color: #ffffff; <br />border 2px solid #990000; }</p>
                 </dd>
             </dl>
             <h2>Layout sketch</h2>
