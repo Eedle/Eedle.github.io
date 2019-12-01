@@ -3,7 +3,10 @@ html {
     font-size: 14px;
 }
 
-
+nav {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
 
 
 p {
