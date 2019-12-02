@@ -1,4 +1,5 @@
 
+
 html {
     font-size: 14px;
 }
@@ -12,6 +13,7 @@ nav {
     background-size: cover;
     margin-top: 1em;
     margin-bottom: 1em;
+
 }
 
 main {
@@ -22,15 +24,21 @@ main {
     background-size: cover;
 }
 
+
 .nobackdrop {
     background-image: none;
     background-color: black;
+}
+
+#maincontent > p {
+    margin: 0em 0em 0em 5em;
 }
 
 p {
     font-family: Georgia, serif,'Times New Roman', Times, Cochin;
     font-size: 1.5em;
     color: #000000;
+    max-width:50em;
 }
 
 h1, h2, li {
