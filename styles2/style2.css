@@ -1,3 +1,4 @@
+
 html {
     font-size: 14px;
 }
@@ -28,23 +29,15 @@ main {
     background-color: black;
 }
 
-#maincontent > p {
-    margin: 0em 0em 0em 1em;
-
-}
-
-
 p {
     font-family: Georgia, serif,'Times New Roman', Times, Cochin;
     font-size: 1.5em;
     color: #000000;
-    max-width:50em;
-}
-
-p.center {
+    max-width: 50em;
     text-align: center;
     margin-left: 5em;
 }
+
 
 h1, h2, li {
     font-family: Luminari, papyrus, cursive, fantasy;
