@@ -159,6 +159,7 @@ li.item > a {
 a:link {
     color: #990000;
     /*padding: .5em;*/
+    border: 2px transparent solid;
 }
 
     a:link.arrow {
