@@ -5,7 +5,7 @@ html {
 }
 
 
-nav {
+nav.mainnav {
     background-image: url("../images/paper.png");
     background-color: #cccccc;
     background-repeat: no-repeat;
